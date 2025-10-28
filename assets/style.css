@@ -40,7 +40,7 @@ header {
         color: var(--secondary-color);
     }
     .navigation:hover {
-        scale: 1.2;
+        transform: scale(1.2);
         transition: 0.5s;
         color: rgb(241, 22, 22);
     }
@@ -113,7 +113,7 @@ header {
             letter-spacing: 3px;
         }
         & button:hover {
-            scale: 1.1;
+            transform: scale(1.1);
             transition: 0.3s;
         }
     }
